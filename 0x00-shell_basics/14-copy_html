@@ -1,8 +1,2 @@
 #!/bin/bash
-for file in *.html
-do
-  if [[ ! -f ${file} "../${file}"]]; then
-    cp "${file}" "../"
-  fi
-
-done
+cp -u *.html ../
