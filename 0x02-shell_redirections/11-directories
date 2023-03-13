@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | wc -l
+ls -ma | tr "\n" null | tr " " "\n" | wc -l
