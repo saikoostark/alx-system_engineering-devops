@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -ma | tr "\n" null | tr " " "\n" | wc -l
+find . | wc -l
